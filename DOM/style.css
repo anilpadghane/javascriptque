@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+}
+
+
+.container>div{
+    height: 150px;
+    width:150px;
+    background-color: rgb(70, 12, 117);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#textchange{
+    color: blueviolet;
+    font-size: larger;
+
+}
+#time{
+    height:40px;
+    width: 260px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 30px;
+}
