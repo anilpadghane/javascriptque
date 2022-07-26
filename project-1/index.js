@@ -32,7 +32,7 @@ function changeImg() {
     document.querySelector('#msg').innerHTML="GOOD AFTERNOON !! TAKE SOME SLEEP";
     document.querySelector('#msg2').innerHTML="LET'S HAVE SOME LUNCH !!";
 }
-//New Massege and Image changes in specific  timing
+//New Message and Image changes in specific  timing
 if(hours < 12){
     var img =document.getElementById('img-1');
     img.src ='Component 30 – 1.png';
